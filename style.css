@@ -80,6 +80,7 @@ main > h1{
 }
 main > p{
     font-weight: lighter;
+    line-height: 2em;
 }
 main.sobre{
     padding-bottom: 20px;
@@ -88,6 +89,8 @@ p.sobre{
     padding: 10px;
     text-align: justify;
     padding-bottom: 20px;
+    text-indent: 10px;
+    line-height: 2em;
 }
 p.sobre>a{
     text-decoration: none;
