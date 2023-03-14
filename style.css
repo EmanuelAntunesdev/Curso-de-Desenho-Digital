@@ -93,6 +93,20 @@ p.sobre{
     text-indent: 10px;
     line-height: 2em;
 }
+h1.publicações{
+    font-size: 1em;
+    margin-top: 5px;
+}
+div.publicações{
+    background-color: #FEA433;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+    margin: 10px;
+}
+div.publicações:hover{
+    background-color: var(--cor3);
+}
 p.sobre>a{
     text-decoration: none;
 }
