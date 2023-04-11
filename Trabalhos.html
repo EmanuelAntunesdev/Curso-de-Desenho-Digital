@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagem/icon/DG.ico" type="image/x-icon">
     <title>Trabalhos</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="trabalhostyle.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-querys.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="estilos/trabalhostyle.css">
 </head>
 <body>
     <header>
@@ -17,7 +20,8 @@
             processos criativos em desenho digital
         </p>
     </header>
-    <nav>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <nav id="itens">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="Sobre.html">Sobre</a></li>
@@ -27,14 +31,16 @@
     </nav>
     <main>
         <h1>Turma 2022</h1>
-        <div id="t1-1"></div>
-        <div id="t1-2"></div>
-        <div id="t1-3"></div>
-        <div id="t1-4"></div>
-        <div id="t1-5"></div>
-        <div id="t1-6"></div>
-        <div id="t1-7"></div>
-        <div id="t1-8"></div>
+        <section class="2022">
+            <div id="t1-1"></div>
+            <div id="t1-2"></div>
+            <div id="t1-3"></div>
+            <div id="t1-4"></div>
+            <div id="t1-5"></div>
+            <div id="t1-6"></div>
+            <div id="t1-7"></div>
+            <div id="t1-8"></div>
+        </section>
         <h1>Turma 2020</h1>
         <div id="t2-1"></div>
         <div id="t2-2"></div>
@@ -61,6 +67,15 @@
         <div id="t4-7"></div>
         <div id="t4-8"></div>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 <footer>
     Site criado por <a href="https://github.com/EmanuelAntunesdev" target="_blank">Emanuel Santos</a> para o <a href="https://www.instagram.com/desenhodigitalufpel/" target="
     ">Curso de Desenho Digital UFPEL</a>
